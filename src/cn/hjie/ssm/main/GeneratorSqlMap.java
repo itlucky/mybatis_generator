@@ -16,6 +16,10 @@ import java.util.List;
  * Created with 集团三码项目组
  * Annotation : mybatis逆向工程的 生成程序
  *  官网有代码实例-- http://www.mybatis.org/generator/running/runningWithJava.html
+ *
+ *  用java程序生成的mapper.java、mapper.xml和po类等，需要拿到项目中验证才行。
+ *  本例将用在项目【spring_mybatis】项目中进行测试。
+ *
  */
 public class GeneratorSqlMap {
     public void generator() throws Exception{
