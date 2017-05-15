@@ -9,11 +9,6 @@
             <!-- 是否去除自动生成的注释 true：是 ： false:否 -->
             <property name="suppressAllComments" value="true" />
         </commentGenerator>
-        <!--数据库连接的信息：驱动类、连接地址、用户名、密码 -->
-        <!--<jdbcConnection driverClass="com.mysql.jdbc.Driver"-->
-                        <!--connectionURL="jdbc:mysql://localhost:3306/mybatis" userId="root"-->
-                        <!--password="mysql">-->
-        <!--</jdbcConnection>-->
          <jdbcConnection driverClass="oracle.jdbc.OracleDriver"
             connectionURL="jdbc:oracle:thin:@10.128.90.142:3436:ora"
             userId="smrh_sxs"
